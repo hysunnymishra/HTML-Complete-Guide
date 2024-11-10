@@ -78,15 +78,11 @@ This repository provides:
 
 ## Browser
 
-There are many browsers out there but most developers prefer to use Google Chrome or FireFox. I usually use Google chrome for development and I recommend it too. [Download](https://www.google.com/chrome/) Google Chrome if you do not have one.
-
-The browser render your HTML code to a human read website.
+I usually use Google chrome for development and I recommend it too. [Download](https://www.google.com/chrome/) Google Chrome if you do not have one.
 
 ## Code Editor
 
-As web developer, you should write code using a text or code editor. Therefore, to write HTML code, CSS, JS, React or other you need to have a code edit.
-
-I will use Visual studio code and I will use it in this challenge too. I strongly suggest to use Visual Studio Code because it has lots of productivity extensions that makes super productive. Now, let's [download](https://code.visualstudio.com/) visual studio code.
+I will use Visual studio code. I strongly suggest to use Visual Studio Code because it has lots of productivity extensions that makes super productive. Now, let's [download](https://code.visualstudio.com/) visual studio code.
 
 ## How to use Visual Studio 
 
