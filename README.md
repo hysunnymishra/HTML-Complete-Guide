@@ -40,27 +40,3 @@ This repository provides:
 
 ---
 
-## 📂 Folder Structure
-
-```plaintext
-HTML-Mastery/
-│
-├── 01_Basics/
-│   ├── intro.html
-│   ├── elements.html
-│   └── attributes.html
-│
-├── 02_Forms/
-│   ├── text_fields.html
-│   └── buttons.html
-│
-├── 03_Multimedia/
-│   ├── audio.html
-│   └── video.html
-│
-├── 04_Advanced_HTML5/
-│   ├── semantic_tags.html
-│   ├── geolocation.html
-│   └── storage.html
-│
-└── notes.pdf  # Original handwritten notes
