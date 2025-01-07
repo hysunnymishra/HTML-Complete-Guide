@@ -1,7 +1,7 @@
 # HTML Mastery : A Comprehensive Guide by Sunny Kumar Mishra
 
 Welcome to **HTML Mastery** ! This repository is a curated guide to mastering HTML concepts from the basics to advanced topics, designed to support both beginners and experienced developers. With handwritten notes and practical examples, you'll gain a deep understanding of HTML for building robust web foundations.
-- Go Through With Notes First [ Which I provided ]
+- Go Through With Notes First [ Which I provided ] + Project is in master branch
 - Download Notes = <a href="https://sunnykumarmishra.gumroad.com/l/YourQuickGuide?_gl=1*1r3kr73*_ga*Mzg2ODAwMTgzLjE3MzA2Mzg2MTg.*_ga_6LJN6D94N6*MTczMTI0MDM3NC4xMi4xLjE3MzEyNDAzNzkuMC4wLjA.">HTML NOTES</a>
 - in notes = the table conept , you might feel lost , so that's why i talked about it in detail in this repository !
 ---
