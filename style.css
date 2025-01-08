@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: url('Asset/background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(214, 40, 40, 0.85); /* Semi-transparent red */
+    padding: 10px 20px;
+    height: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+    height: 40px; /* Adjusted size for a compact look */
+}
+
+/* Add Bounce Keyframes here */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcccb;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px); /* Full screen minus header and footer */
+    position: relative;
+}
+
+main .glass {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    -webkit-backdrop-filter: blur(10px);
+    padding: 40px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: relative;
+}
+
+main .glass .main-logo {
+    width: 150px; /* Adjust the size of the logo */
+    margin: 0 auto 20px auto; /* Center and add spacing below */
+    display: block;
+}
+
+main .glass p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main .glass .search-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main .glass select, main .glass input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+main .glass select {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 160px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+main .glass select:hover, main .glass select:focus {
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: scale(1.05);
+}
+
+main .glass input {
+    flex: 1;
+    color: #333;
+    background: rgba(255, 255, 255, 0.7);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+main .glass input:focus {
+    background: rgba(255, 255, 255, 0.9);
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgba(214, 40, 40, 0.85);
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
